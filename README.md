@@ -26,7 +26,7 @@ import tuzikmediatools as tmt
 ```
   import tuzikmediatools as tmt
 
-  # tmt.generate(lenght, symbols='a-z or numbers or castom_symbols', case='low or up', numbers_range=(from, before)) 
+  # tmt.generate(lenght, symbols='a-z / numbers / castom_symbols', case='low / up', numbers_range=(from, before)) 
 
 
   tmt.generate(8) # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> qHG1%lb4
