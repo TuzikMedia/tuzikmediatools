@@ -12,13 +12,14 @@ or
 
 **tuzikmediatools** - is a small module that can generate strings from user-specified characters.
 
-## import
+## Usage
+
+### import
 
 `
 import tuzikmediatools as tmt
 `
 
-## Usage
 
 ### Generate
 
