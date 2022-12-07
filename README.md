@@ -35,8 +35,8 @@ import tuzikmediatools as tmt
   tmt.generate(8, symbols = 'a-z') # >>>>>>>>>>>>>>>>>>>>>>>>> ajTDkapW
 
   tmt.generate(6, symbols='a-z', case='up') # >>>>>>>>>>>>>>>> URLDGQ
-
   tmt.generate(12, symbols='a-z', case='low') # >>>>>>>>>>>>>> kdyemfjsgisy
+
 
   tmt.generate(6, symbols='numbers') # >>>>>>>>>>>>>>>>>>>>>>> 194837
 
