@@ -2,23 +2,27 @@
 
 ## installation
 
-`pip install tuzikmediatools`
 
-or
-
-`pip3 install tuzikmediatools`
+`pip install tuzikmediatools`\
+or\
+`pip3 install tuzikmediatools`\
+or\
+`python -m pip install tuzikmediatools`
 
 ## Description
 
-**tuzikmediatools** - is a small module that can generate strings from user-specified characters.
+**tuzikmediatools** - is a small module that can:
+1. Generate strings from user-specified characters.
+2. Сheck if a number is prime
+3. Count the number of words in a text
 
 ## Usage
 
 ### import
 
-`
+```
 import tuzikmediatools as tmt
-`
+```
 
 
 ### Generate
@@ -30,7 +34,7 @@ import tuzikmediatools as tmt
 #              symbols='a-z / numbers / castom_symbols', 
 #              case='low / up', 
 #              numbers_range=(from, before), 
-#             ) 
+# ) 
 
 
 tmt.generate(8) # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> qHG1%lb4
@@ -53,3 +57,22 @@ tmt.generate(6, symbols='йцукенгшщзх') # >>>>>>>>>>>>>>>>>>>> кщй�
 ```
 
 
+### Is_prime
+
+```
+import tuzikmediatools as tmt
+
+tmt.is_prime(5) # >>>>>>>>  True
+tmt.is_prime(18) # >>>>>>>  False
+tmt.is_prime(-3, 5, 4) # > (False, True, False)
+```
+
+
+### Word_count
+
+```
+import tuzikmediatools as tmt
+
+tmt.word_count('Hello, world!') # >>>>>>>>>>>>>>>>>>>>>>>>>  2
+tmt.word_count('Hello,   word!', 'Hello, how are you?') # > (2, 4)
+```
